@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matatu Fleet Management System</title>
+    <!-- Include your CSS files here -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Matatu Fleet Management</h1>
+      <!-- Add login/logout buttons or user profile info -->
+    </header>
+
+    <nav>
+      <!-- Navigation links: Dashboard, Tracking, Routes, Reports, Settings, etc. -->
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Real-time Tracking</a></li>
+        <li><a href="#">Routes</a></li>
+        <li><a href="#">Reports</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="dashboard">
+        <!-- Display key metrics: active matatus, revenue, alerts -->
+        <div class="metric">
+          <h2>Active Matatus</h2>
+          <p>25</p>
+        </div>
+        <!-- Other metrics -->
+        <div class="metric">
+          <h2>Revenue (Last Month)</h2>
+          <p>$12,500</p>
+        </div>
+        <div class="metric">
+          <h2>Alerts</h2>
+          <p>3</p>
+        </div>
+        <!-- Add more metrics as needed -->
+      </section>
+
+      <section id="tracking">
+        <!-- Map with markers for matatu locations -->
+        <div id="map"></div>
+
+        <!-- Additional components -->
+        <div class="tracking-controls">
+          <!-- Buttons for zooming, centering, and toggling layers -->
+          <button id="zoom-in">Zoom In</button>
+          <button id="zoom-out">Zoom Out</button>
+          <button id="center-map">Center Map</button>
+          <button id="toggle-traffic">Toggle Traffic</button>
+        </div>
+
+        <div class="matatu-list">
+          <!-- List of active matatus with details -->
+          <div class="matatu">
+            <h3>Matatu #123</h3>
+            <p>Driver: John Doe</p>
+            <p>Route: Route A</p>
+            <!-- Add more details as needed -->
+          </div>
+          <!-- Repeat for other matatus -->
+        </div>
+      </section>
+
+      <!-- Route Management section -->
+      <section id="routes">
+        <!-- Route details, stops, schedules -->
+        <!-- Editable form for adding/editing routes -->
+      </section>
+
+      <!-- Revenue Calculation section -->
+      <section id="revenue">
+        <!-- Input fields for seat occupancy and fare -->
+        <!-- Display calculated revenue -->
+      </section>
+
+      <!-- Analytics and Reports section -->
+      <section id="analytics">
+        <!-- Charts for trips completed, revenue, driver rankings -->
+      </section>
+
+      <!-- Geofencing Alerts section -->
+      <section id="geofencing">
+        <!-- Set geofencing rules, display alerts -->
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 Matatu Fleet Management</p>
+    </footer>
+
+    <!-- Include your JavaScript files here -->
+    <script src="app.js"></script>
+  </body>
+</html>

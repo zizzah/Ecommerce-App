@@ -1,0 +1,44 @@
+{
+  "others": {
+    "$__": {
+      "activePaths": {
+        "paths": {
+          "password": "init",
+          "email": "init",
+          "userName": "init",
+          "isAdmin": "init",
+          "_id": "init",
+          "createdAt": "init",
+          "updatedAt": "init",
+          "__v": "init"
+        },
+        "states": {
+          "require": {},
+          "default": {},
+          "init": {
+            "_id": true,
+            "userName": true,
+            "email": true,
+            "password": true,
+            "isAdmin": true,
+            "createdAt": true,
+            "updatedAt": true,
+            "__v": true
+          }
+        }
+      },
+      "skipId": true
+    },
+    "$isNew": false,
+    "_doc": {
+      "_id": "65d2e47edc556fd313a0f16f",
+      "userName": "el-zizzah",
+      "email": "chukwudiokolo416@gmail.com",
+      "password": "U2FsdGVkX193Hcqip2wlpyik9FUOO28P",
+      "isAdmin": false,
+      "createdAt": "2024-02-19T05:17:50.969Z",
+      "updatedAt": "2024-02-19T05:17:50.969Z",
+      "__v": 0
+    }
+  }
+}
